@@ -1,0 +1,43 @@
+body{
+	background: url(bg.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	font-family: 'Montserrat', sans-serif;
+	max-width: 960px;
+	margin: 0 auto; 
+	color: #ffffff; 
+}
+ main{
+	margin-top: 30%; 
+ }
+
+section{
+	float: left; 
+	width: 25%;
+	margin-right: 8%;
+	text-align: center;
+}
+
+section:nth-of-type(3) {
+	float: right;
+	margin-right: 0%;
+}
+
+h1{
+	font-size: 5em;
+	margin-top: 0px;
+}
+p{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+
+section .desc{
+	width: 100%;
+	clear: both;
+	float: none; 
+	font-weight: 400; 
+	margin-top: 5%;
+}
